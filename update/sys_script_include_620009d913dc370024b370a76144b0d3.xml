@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_aws.AwsClient</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AwsClient</name>
+        <script><![CDATA[var AwsClient = Class.create();
+AwsClient.prototype = {
+	initialize: function() {},
+	
+	executeAction: function(options) {
+		var queryParams = [];
+		
+		if (options.query && options.query.length > 0) {
+			queryParams = options.query.split(',');
+		}
+		
+		if (options.action && options.action.length > 0) {
+			queryParams.push('Action=' + options.action);
+		}
+		
+		if (options.version && options.version.length > 0) {
+			queryParams.push('Version=' + options.version);
+		}
+		
+		var reqOpts = {
+			awsCredentials: {
+				secretAccessKey: options.secretKey,
+				accessKeyId: options.accessKey
+			},
+			
+			method: options.method,
+			host: options.endpoint,
+			query: queryParams,
+			headers: {}
+		};
+		
+		if (options.body && options.body.length > 0) {
+			reqOpts.body = options.body;
+		}
+		
+		if (options.service == 'sqs' || options.service == 's3') {
+			reqOpts.service = options.service;
+			reqOpts.region = options.region;
+		}
+		
+		var rm = this.prepareRestMessage(reqOpts);
+		rm.setLogLevel('all');
+		var response = rm.execute(); 
+		
+		return response;
+	},
+	
+	prepareRestMessage: function(options) {
+		var rm = new sn_ws.RESTMessageV2(); 
+		rm.setHttpMethod(options.method || 'GET');
+		rm.setEndpoint('https://' + options.host + '/');
+		
+		for (var h in options.headers) {
+			rm.setRequestHeader(h, options.headers[h]);
+		}
+		
+		var params = [];
+		if (options.query && options.query.length > 0) {
+			for (var q in options.query) {
+				rm.setQueryParameter(options.query[q].split('=')[0], options.query[q].split('=')[1]);
+				params.push(options.query[q]);
+			}
+		}
+		
+		var opts = {
+			method: options.method,
+			host: options.host
+		};
+		
+		if (params && params.length > 0) {
+			opts.path = '?' + params.join('&');
+		}
+		
+		if (options.headers) {
+			opts.headers = options.headers;
+		}
+		
+		if (options.service == 'sqs' || options.service == 's3') {
+			opts.service = options.service;
+			opts.region = options.region;
+		}
+		
+		if (options.body && options.body.length > 0) {
+			rm.setRequestBody(options.body);
+			opts.body = options.body;
+		}
+		
+		aws4.sign(opts, options.awsCredentials);
+
+		rm.setRequestHeader('Authorization', opts.headers.Authorization);
+		rm.setRequestHeader('X-Amz-Date', opts.headers['X-Amz-Date']);
+		
+		if (options.service == 's3') {
+			rm.setRequestHeader('X-Amz-Content-Sha256', opts.headers['X-Amz-Content-Sha256']);
+		}
+		
+		return rm; 
+	},
+	
+	type: 'AwsClient'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 02:55:56</sys_created_on>
+        <sys_id>620009d913dc370024b370a76144b0d3</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>AwsClient</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_script_include_620009d913dc370024b370a76144b0d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:09:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="DescribeDBInstances">dfead3b11398b70024b370a76144b058</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>2.2</order>
+        <parent_ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>263dac9edb543b00bd71f88eaf961953</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_263dac9edb543b00bd71f88eaf961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>52d63eb1-5dcd-4919-a34b-c55619f8e558</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=263dac9edb543b00bd71f88eaf961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>223dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">dfead3b11398b70024b370a76144b061</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>a63dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value/>
+        <variable display_value="">efead3b11398b70024b370a76144b093</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>e23dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">dbead3b11398b70024b370a76144b05b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=263dac9edb543b00bd71f88eaf961953"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>aws_account</field>
+        <id>263dac9edb543b00bd71f88eaf961953</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>ea3dac9edb543b00bd71f88eaf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dfead3b11398b70024b370a76144b058</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>endpoint</field>
+        <id>263dac9edb543b00bd71f88eaf961953</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>2a3dac9edb543b00bd71f88eaf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dfead3b11398b70024b370a76144b058</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>263dac9edb543b00bd71f88eaf961953</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>ae3dac9edb543b00bd71f88eaf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dfead3b11398b70024b370a76144b058</table>
+        <value>DBInstanceIdentifier={{43322323-3d09-49d3-860d-424c6ae36d76.topicarn}}</value>
+    </sys_element_mapping>
+</record_update>

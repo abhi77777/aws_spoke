@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="GetQueueAttributes">e9da0016db143b00bd71f88eaf96190c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS SNS Actions">1a6e97351398b70024b370a76144b012</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 02:12:16</sys_created_on>
+        <sys_id>03f2dc9adb143b00bd71f88eaf96192c</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_03f2dc9adb143b00bd71f88eaf96192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 03:48:28</sys_updated_on>
+        <ui_id>25e491aa-5914-4a9e-9e6a-b63837314e54</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03f2dc9adb143b00bd71f88eaf96192c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>03f2dc9adb143b00bd71f88eaf96192c</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 02:12:17</sys_created_on>
+        <sys_id>8ff2dc9adb143b00bd71f88eaf961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:12:17</sys_updated_on>
+        <value/>
+        <variable display_value="">b1da0016db143b00bd71f88eaf96193d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>03f2dc9adb143b00bd71f88eaf96192c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 02:12:17</sys_created_on>
+        <sys_id>cbf2dc9adb143b00bd71f88eaf961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:12:17</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">adda0016db143b00bd71f88eaf96190f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=03f2dc9adb143b00bd71f88eaf96192c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>aws_account</field>
+        <id>03f2dc9adb143b00bd71f88eaf96192c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 02:12:17</sys_created_on>
+        <sys_id>87f2dc9adb143b00bd71f88eaf961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:12:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e9da0016db143b00bd71f88eaf96190c</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>03f2dc9adb143b00bd71f88eaf96192c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 02:12:17</sys_created_on>
+        <sys_id>4bf2dc9adb143b00bd71f88eaf961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:12:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e9da0016db143b00bd71f88eaf96190c</table>
+        <value>QueueUrl={{fd4aca8e-2237-43f2-9dc5-06ccc9bdf2fb.topicarn}},AttributeName.1=QueueArn</value>
+    </sys_element_mapping>
+</record_update>

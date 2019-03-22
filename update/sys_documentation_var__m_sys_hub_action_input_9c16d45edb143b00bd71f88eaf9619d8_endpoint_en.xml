@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="endpoint" label="Endpoint" language="en" table="var__m_sys_hub_action_input_9c16d45edb143b00bd71f88eaf9619d8">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>endpoint</element>
+            <help/>
+            <hint>The service endpoint. Example: ec2.us-west-1.amazonaws.com</hint>
+            <label>Endpoint</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_9c16d45edb143b00bd71f88eaf9619d8</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-22 02:25:45</sys_created_on>
+            <sys_id>e016d45edb143b00bd71f88eaf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Endpoint</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9c16d45edb143b00bd71f88eaf9619d8_endpoint_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-22 02:25:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

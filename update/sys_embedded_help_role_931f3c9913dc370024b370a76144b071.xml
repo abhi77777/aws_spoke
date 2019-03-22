@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_aws.aws_admin" name="x_snc_aws.aws_admin">db1f3c9913dc370024b370a76144b06e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 02:51:10</sys_created_on>
+        <sys_id>931f3c9913dc370024b370a76144b071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db1f3c9913dc370024b370a76144b06e</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_embedded_help_role_931f3c9913dc370024b370a76144b071</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 02:51:10</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

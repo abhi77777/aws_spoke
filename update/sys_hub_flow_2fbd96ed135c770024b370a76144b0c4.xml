@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_aws_ec2_actions</internal_name>
+        <label_cache>[{"name":"36b37a93-7208-4d37-9844-ddf40db823e1.instanceid","label":"2.2➛instanceState","type":"string","base_type":"string"},{"name":"36b37a93-7208-4d37-9844-ddf40db823e1.status","label":"2.1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"36b37a93-7208-4d37-9844-ddf40db823e1.output","label":"2.1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"dea0d10e-a6ce-4532-bea5-6ef69d50a6f3.reservationid","label":"1➛reservationId","reference_display":"reservationId","type":"string","base_type":"string"},{"name":"dea0d10e-a6ce-4532-bea5-6ef69d50a6f3.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"dea0d10e-a6ce-4532-bea5-6ef69d50a6f3.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"a0b8bb7d-9f4b-48a0-84d0-3c82ac389a3c.output","label":"3➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"a0b8bb7d-9f4b-48a0-84d0-3c82ac389a3c.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"a0b8bb7d-9f4b-48a0-84d0-3c82ac389a3c.reservationid","label":"2➛reservationId","reference_display":"reservationId","type":"string","base_type":"string"},{"name":"a0b8bb7d-9f4b-48a0-84d0-3c82ac389a3c.instanceid","label":"3➛instanceState","reference_display":"instanceState","type":"string","base_type":"string"},{"name":"174466eb-5a0e-481f-9e68-df3571f00b1b.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"174466eb-5a0e-481f-9e68-df3571f00b1b.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"174466eb-5a0e-481f-9e68-df3571f00b1b.reservationid","label":"1➛reservationId","reference_display":"reservationId","type":"string","base_type":"string"},{"name":"174466eb-5a0e-481f-9e68-df3571f00b1b.instanceid","label":"1➛instanceId","type":"string","base_type":"string"},{"name":"4289544d-b793-4b2d-97ab-63c3d1d38b23.output","label":"3➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"4289544d-b793-4b2d-97ab-63c3d1d38b23.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"4289544d-b793-4b2d-97ab-63c3d1d38b23.reservationid","label":"3➛reservationId","reference_display":"reservationId","type":"string","base_type":"string"},{"name":"4289544d-b793-4b2d-97ab-63c3d1d38b23.instanceid","label":"3➛instanceId","reference_display":"instanceId","type":"string","base_type":"string"},{"name":"efaebe38-4aa2-4866-b249-980018c2dbc6.output","label":"4➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"efaebe38-4aa2-4866-b249-980018c2dbc6.status","label":"4➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"efaebe38-4aa2-4866-b249-980018c2dbc6.reservationid","label":"4➛reservationId","reference_display":"reservationId","type":"string","base_type":"string"},{"name":"efaebe38-4aa2-4866-b249-980018c2dbc6.instanceid","label":"4➛instanceId","reference_display":"instanceId","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test AWS EC2 Actions</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:23:05</sys_created_on>
+        <sys_id>2fbd96ed135c770024b370a76144b0c4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Test AWS EC2 Actions</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_2fbd96ed135c770024b370a76144b0c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 03:58:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2fbd96ed135c770024b370a76144b0c4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fbd96ed135c770024b370a76144b0c4"/>
+</record_update>

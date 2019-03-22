@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_stage">
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Test AWS S3 Actions">a61445e11398770024b370a76144b0ca</flow>
+        <label>Bucket Deletion</label>
+        <order>0</order>
+        <stage_id>b6abfde0-bfcf-464d-a27f-1c6e9e8fe922</stage_id>
+        <states>{"pending":"Pending - has not started","inprogress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:31</sys_created_on>
+        <sys_id>fc39e5ad13d8770024b370a76144b083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bucket Deletion</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_stage_fc39e5ad13d8770024b370a76144b083</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:33:31</sys_updated_on>
+        <type>standard</type>
+        <value>1</value>
+    </sys_hub_flow_stage>
+</record_update>

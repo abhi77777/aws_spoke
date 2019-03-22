@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="DeleteDBInstance">a0d8d7311398b70024b370a76144b0ee</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bcc957711398b70024b370a76144b07c","name":"plan"}}</plan>
+        <snapshot>66b9d3711398b70024b370a76144b08e</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 03:23:48</sys_created_on>
+        <sys_id>bcc957711398b70024b370a76144b07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a0d8d7311398b70024b370a76144b0ee</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_plan_bcc957711398b70024b370a76144b07c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 03:23:48</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

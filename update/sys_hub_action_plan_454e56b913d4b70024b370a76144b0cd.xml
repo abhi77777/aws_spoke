@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Subscribe">229dda7913d4b70024b370a76144b0fe</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"454e56b913d4b70024b370a76144b0cd","name":"plan"}}</plan>
+        <snapshot>96561c5edb143b00bd71f88eaf9619c9</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 23:03:51</sys_created_on>
+        <sys_id>454e56b913d4b70024b370a76144b0cd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>229dda7913d4b70024b370a76144b0fe</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_plan_454e56b913d4b70024b370a76144b0cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 02:27:03</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

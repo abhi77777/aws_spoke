@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="DeleteTopic">d09f75f51394b70024b370a76144b03a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS SNS Actions">1a6e97351398b70024b370a76144b012</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 04:27:16</sys_created_on>
+        <sys_id>e2482ff91398b70024b370a76144b047</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e2482ff91398b70024b370a76144b047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 03:48:29</sys_updated_on>
+        <ui_id>d105904e-b5c5-43f0-827c-cb00d2ce8de0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e2482ff91398b70024b370a76144b047"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2482ff91398b70024b370a76144b047</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 04:27:16</sys_created_on>
+        <sys_id>a6482ff91398b70024b370a76144b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 04:27:16</sys_updated_on>
+        <value/>
+        <variable display_value="">209f75f51394b70024b370a76144b083</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2482ff91398b70024b370a76144b047</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 04:27:16</sys_created_on>
+        <sys_id>e2482ff91398b70024b370a76144b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 04:27:16</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">dc9f75f51394b70024b370a76144b03c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2482ff91398b70024b370a76144b047</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:35:21</sys_created_on>
+        <sys_id>f16ae6ce1350f70024b370a76144b095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:35:21</sys_updated_on>
+        <value>sns.us-west-1.amazonaws.com</value>
+        <variable display_value="">d49f75f51394b70024b370a76144b043</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e2482ff91398b70024b370a76144b047"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>aws_account</field>
+        <id>e2482ff91398b70024b370a76144b047</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 04:27:16</sys_created_on>
+        <sys_id>ae482ff91398b70024b370a76144b04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 04:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d09f75f51394b70024b370a76144b03a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>endpoint</field>
+        <id>e2482ff91398b70024b370a76144b047</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:35:21</sys_created_on>
+        <sys_id>716ae6ce1350f70024b370a76144b095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d09f75f51394b70024b370a76144b03a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query</field>
+        <id>e2482ff91398b70024b370a76144b047</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 04:27:16</sys_created_on>
+        <sys_id>62482ff91398b70024b370a76144b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 04:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d09f75f51394b70024b370a76144b03a</table>
+        <value>TopicArn={{7b8b51ca-e027-4694-bbfc-1831ec3b5510.topicarn}}</value>
+    </sys_element_mapping>
+</record_update>

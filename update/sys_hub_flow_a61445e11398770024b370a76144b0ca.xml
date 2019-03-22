@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_aws_s3_actions</internal_name>
+        <label_cache>[{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.output","label":"3➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test AWS S3 Actions</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:51:26</sys_created_on>
+        <sys_id>a61445e11398770024b370a76144b0ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test AWS S3 Actions</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_a61445e11398770024b370a76144b0ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:42:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a61445e11398770024b370a76144b0ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a61445e11398770024b370a76144b0ca"/>
+</record_update>

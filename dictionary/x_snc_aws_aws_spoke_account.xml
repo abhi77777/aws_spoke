@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AWS Spoke Account" max_length="40" name="x_snc_aws_aws_spoke_account" type="collection">
+        <element label="Account Credential" mandatory="true" max_length="32" name="account_credential" reference="x_snc_aws_aws_spoke_credentials" type="reference"/>
+        <element label="Account ID" mandatory="true" max_length="32" name="account_id" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <index name="index">
+            <element name="account_credential"/>
+        </index>
+    </element>
+</database>
