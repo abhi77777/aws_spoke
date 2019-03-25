@@ -4,7 +4,8 @@
         <active>true</active>
         <api_name>x_snc_aws.aws4</api_name>
         <client_callable>false</client_callable>
-        <description/>
+        <description>CREDIT: https://github.com/mhart/aws4&#13;
+LICENSE: https://github.com/mhart/aws4/blob/master/LICENSE</description>
         <name>aws4</name>
         <script><![CDATA[/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -10424,13 +10425,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 22:01:09</sys_created_on>
         <sys_id>f44681651398770024b370a76144b080</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>aws4</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_script_include_f44681651398770024b370a76144b080</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 00:28:24</sys_updated_on>
+        <sys_updated_on>2019-03-25 15:40:03</sys_updated_on>
     </sys_script_include>
 </record_update>
