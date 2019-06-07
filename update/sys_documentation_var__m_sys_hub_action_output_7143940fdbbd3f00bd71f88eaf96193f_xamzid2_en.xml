@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="xamzid2" label="xamzid2" language="en" table="var__m_sys_hub_action_output_7143940fdbbd3f00bd71f88eaf96193f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>xamzid2</element>
+            <help/>
+            <hint/>
+            <label>xamzid2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_7143940fdbbd3f00bd71f88eaf96193f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 23:43:14</sys_created_on>
+            <sys_id>a243d40fdbbd3f00bd71f88eaf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>xamzid2</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7143940fdbbd3f00bd71f88eaf96193f_xamzid2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-06 23:43:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

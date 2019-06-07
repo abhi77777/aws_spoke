@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>upload_incident_attachment__to_aws_s3</internal_name>
+        <label_cache>[{"name":"5be854b0-d557-4ec0-9c03-ae0c53f5ea33.attachmentbase64","label":"1➛AttachmentBase64","type":"string","base_type":"string"},{"name":"a1507e35-33ce-41d3-b5ef-dfe3fcdb2d2b.etag","label":"2➛etag","reference_display":"etag","type":"string","base_type":"string"},{"name":"a1507e35-33ce-41d3-b5ef-dfe3fcdb2d2b.xamzversionid","label":"2➛xamzversionid","reference_display":"xamzversionid","type":"string","base_type":"string"},{"name":"a1507e35-33ce-41d3-b5ef-dfe3fcdb2d2b.xamzrequestid","label":"2➛xamzrequestid","reference_display":"xamzrequestid","type":"string","base_type":"string"},{"name":"a1507e35-33ce-41d3-b5ef-dfe3fcdb2d2b.xamzid2","label":"2➛xamzid2","reference_display":"xamzid2","type":"string","base_type":"string"},{"name":"a1507e35-33ce-41d3-b5ef-dfe3fcdb2d2b.status","label":"2➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"5be854b0-d557-4ec0-9c03-ae0c53f5ea33.contenttype","label":"1➛contentType","type":"string","base_type":"string"},{"name":"5be854b0-d557-4ec0-9c03-ae0c53f5ea33.filename","label":"1➛fileName","type":"string","base_type":"string"},{"name":"5be854b0-d557-4ec0-9c03-ae0c53f5ea33.status","label":"1➛AttachmentBytes","type":"string","base_type":"string"},{"name":"Created_1.current.sys_id","label":"Trigger➛Attachment Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id"}]</label_cache>
+        <master>true</master>
+        <name>Upload Incident Attachment  to AWS S3</name>
+        <outputs/>
+        <parent_flow/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 01:55:22</sys_created_on>
+        <sys_id>10f72fe2dbb13f00bd71f88eaf96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upload Incident Attachment  to AWS S3</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_10f72fe2dbb13f00bd71f88eaf96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 01:55:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=10f72fe2dbb13f00bd71f88eaf96196f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=10f72fe2dbb13f00bd71f88eaf96196f"/>
+</record_update>

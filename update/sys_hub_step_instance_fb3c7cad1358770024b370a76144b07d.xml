@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:17:07</sys_created_on>
         <sys_id>fb3c7cad1358770024b370a76144b07d</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Build and Send Query</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_step_instance_fb3c7cad1358770024b370a76144b07d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 01:16:48</sys_updated_on>
+        <sys_updated_on>2019-06-01 00:09:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fb3c7cad1358770024b370a76144b07d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,19 +33,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:17:07</sys_created_on>
         <sys_id>404c7cad1358770024b370a76144b0ad</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 01:16:48</sys_updated_on>
+        <sys_updated_on>2019-06-01 00:09:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var options = {};
   options.accessKey = inputs.accessKey;
   options.secretKey = inputs.secretKey;
-  options.endpoint = inputs.bucketName + '.s3.amazonaws.com';
+  options.endpoint = inputs.bucketName + '.s3.amazonaws.com/testingupload.txt';
   options.method = 'PUT';
+  options.path = '/testingupload.txt/';
   options.service = 's3';
   options.region = 'us-east-1';
-  options.body = '&lt;CreateBucketConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"&gt;&lt;LocationConstraint&gt;' + inputs.region + '&lt;/LocationConstraint&gt;&lt;/CreateBucketConfiguration&gt;';
-  
+  //options.body = '&lt;CreateBucketConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"&gt;&lt;LocationConstraint&gt;' + inputs.region + '&lt;/LocationConstraint&gt;&lt;/CreateBucketConfiguration&gt;';
+  options.body = 'testing';
   options.headers = {
     'x-amz-acl': inputs.cannedAcl,
     'Content-Type': 'text/plain',
@@ -152,9 +153,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:17:07</sys_created_on>
         <sys_id>8c4c7cad1358770024b370a76144b0ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-19 22:20:55</sys_updated_on>
+        <sys_updated_on>2019-05-28 21:05:26</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_fb3c7cad1358770024b370a76144b07d</table>
         <value>{{step[1f90b3c8-d945-4cb5-af64-99621cd132f5].secretKey}}</value>
     </sys_element_mapping>

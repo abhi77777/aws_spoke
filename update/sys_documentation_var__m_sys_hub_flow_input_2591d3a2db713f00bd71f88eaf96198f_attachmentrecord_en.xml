@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attachmentrecord" label="AttachmentSysId" language="en" table="var__m_sys_hub_flow_input_2591d3a2db713f00bd71f88eaf96198f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attachmentrecord</element>
+            <help/>
+            <hint/>
+            <label>AttachmentSysId</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_2591d3a2db713f00bd71f88eaf96198f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 00:17:41</sys_created_on>
+            <sys_id>6991d3a2db713f00bd71f88eaf961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AttachmentSysId</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2591d3a2db713f00bd71f88eaf96198f_attachmentrecord_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-06 00:17:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

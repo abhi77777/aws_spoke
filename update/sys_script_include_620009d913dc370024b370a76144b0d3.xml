@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
         <api_name>x_snc_aws.AwsClient</api_name>
         <client_callable>false</client_callable>
@@ -8,7 +8,8 @@
         <name>AwsClient</name>
         <script><![CDATA[var AwsClient = Class.create();
 AwsClient.prototype = {
-	initialize: function() {},
+	initialize: function() {
+	},
 	
 	executeAction: function(options) {
 		var queryParams = [];
@@ -26,45 +27,33 @@ AwsClient.prototype = {
 		}
 		
 		var reqOpts = {
-			awsCredentials: {
-				secretAccessKey: options.secretKey,
-				accessKeyId: options.accessKey
-			},
-			
+			secretAccessKey: options.secretKey,
+			accessKeyId: options.accessKey,
 			method: options.method,
-			host: options.endpoint,
+			host: options.host,
 			query: queryParams,
-			headers: {}
+			headers: options.headers || {},
+			path: options.path || '',
+			body: options.body,
+			unsignedPayload: options.unsignedPayload,
+			service: options.service,
+			region: options.region,
+			recordTableName: options.recordTableName,
+		    recordSysId: options.recordSysId,
+			fileName: options.fileName,
+			securityToken: options.securityToken || '',
+			attachmentSysId: options.attachmentSysId
 		};
-		
-		if (!gs.nil(options.headers)) {
-			reqOpts.headers = options.headers;
-		}
-		
-		if (!gs.nil(options.body)) {
-			reqOpts.body = options.body;
-		}
-		
-		if (options.service == 'sqs' || options.service == 's3') {
-			reqOpts.service = options.service;
-			reqOpts.region = options.region;
-		}
 		
 		var rm = this.prepareRestMessage(reqOpts);
 		rm.setLogLevel('all');
-		var response = rm.execute(); 
-		
+		var response = rm.execute();
 		return response;
 	},
 	
 	prepareRestMessage: function(options) {
 		var rm = new sn_ws.RESTMessageV2(); 
 		rm.setHttpMethod(options.method || 'GET');
-		rm.setEndpoint('https://' + options.host + '/');
-		
-		for (var h in options.headers) {
-			rm.setRequestHeader(h, options.headers[h]);
-		}
 		
 		var params = [];
 		if (!gs.nil(options.query)) {
@@ -74,39 +63,226 @@ AwsClient.prototype = {
 			}
 		}
 		
-		var opts = {
-			method: options.method,
-			host: options.host
-		};
-		
 		if (!gs.nil(params) && params.length > 0) {
-			opts.path = '?' + params.join('&');
-		}
-		
-		if (!gs.nil(options.headers)) {
-			opts.headers = options.headers;
-		}
-		
-		if (options.service == 'sqs' || options.service == 's3') {
-			opts.service = options.service;
-			opts.region = options.region;
+			options.path = '?' + params.join('&');
+			options.params = params;
 		}
 		
 		if (!gs.nil(options.body)) {
-			rm.setRequestBody(options.body);
-			opts.body = options.body;
+            options.hashedBody = CryptoJS.SHA256(options.body).toString();
+            rm.setRequestBody(options.body);
 		}
 		
-		aws4.sign(opts, options.awsCredentials);
+		if (!gs.nil(options.attachmentSysId)) {
+			var attachRec = new GlideRecord('sys_attachment');
+			attachRec.addQuery('sys_id', options.attachmentSysId);
+			attachRec.query();
+            var rawBody;
+			while (attachRec.next()) {
+			  rm.setRequestBodyFromAttachment(attachRec.sys_id);
+			  options.headers['Content-Type'] = attachRec.content_type;
+			  options.path = '/' + attachRec.file_name.split(' ').join('_');
+			}
+			
+            options.hashedBody = CryptoJS.SHA256(options.body).toString();
+		}
+		
+		rm.setEndpoint('https://' + options.host + options.path);
+		
+		for (var h in options.headers) {
+			rm.setRequestHeader(h, options.headers[h]);
+		}
+		
+        var signedHeaders = this.signRequest(options);
 
-		rm.setRequestHeader('Authorization', opts.headers.Authorization);
-		rm.setRequestHeader('X-Amz-Date', opts.headers['X-Amz-Date']);
+		for (var sh in signedHeaders) {
+            gs.info('Setting Request Header... Name: ' + sh + ' Value: ' + signedHeaders[sh], 'AWS Spoke');
+			rm.setRequestHeader(sh, signedHeaders[sh]);
+		}
 		
 		if (options.service == 's3') {
-			rm.setRequestHeader('X-Amz-Content-Sha256', opts.headers['X-Amz-Content-Sha256']);
+			if (options.unsignedPayload || options.method == 'GET') {
+				rm.setRequestHeader('X-Amz-Content-Sha256', 'UNSIGNED-PAYLOAD');
+			} else {
+				rm.setRequestHeader('X-Amz-Content-Sha256', options.hashedBody);
+			}
+			
+			if (!gs.nil(options.recordTableName)) {
+				rm.saveResponseBodyAsAttachment(options.recordTableName, options.recordSysId, options.fileName);
+			}
 		}
 		
 		return rm; 
+	},
+	
+	signRequest: function(options) {
+	  var algorithm = 'AWS4-HMAC-SHA256';
+	  var amzDateTime = this.getAmzDateTime();
+	  gs.info('AmzDateTime: ' + amzDateTime, 'AWS Spoke');
+
+	  var amzDate = amzDateTime.substr(0,8);
+	  //options.headers['X-Amz-Algorithm'] = algorithm;
+	  options.headers['X-Amz-Date'] = amzDateTime;
+	  options.headers['Host'] = options.host;
+      options.url = options.host + options.path;
+		
+	  gs.info('Url: ' + options.host + options.path, 'AWS Spoke');
+	  gs.info('Host: ' + options.host, 'AWS Spoke');
+	  gs.info('Region: ' + options.region, 'AWS Spoke');
+	  gs.info('Service: ' + options.service, 'AWS Spoke');
+	  gs.info('Access Key Id: ' + options.accessKeyId, 'AWS Spoke');
+	  gs.info('Secret Access Key: ' + options.secretAccessKey, 'AWS Spoke');
+	  gs.info('Headers: ' + JSON.stringify(options.headers), 'AWS Spoke');
+	  gs.info('Security Token: ' + options.securitytoken || '');
+	  gs.info('Query String: ' + options.params || '', 'AWS Spoke');
+
+	  var canonicalRequest = this.getCanonicalRequest(options);
+	  gs.info('Canonical Request: ' + canonicalRequest, 'AWS Spoke');
+
+	  var canonicalRequestHash = CryptoJS.SHA256(canonicalRequest); 
+	  gs.info('Canonical Request Hash: ' + canonicalRequestHash, 'AWS Spoke');
+
+	  var stringToSign = algorithm + '\n';
+	  stringToSign += amzDateTime + '\n';
+	  stringToSign += amzDate + '/' + options.region + '/' + options.service + '/' + 'aws4_request' + '\n';
+	  stringToSign += canonicalRequestHash;
+	  gs.info('String To Sign: ' + stringToSign, 'AWS Spoke');
+
+	  var kDate = CryptoJS.HmacSHA256(amzDate, 'AWS4' + options.secretAccessKey);
+	  var kRegion = CryptoJS.HmacSHA256(options.region, kDate);
+	  var kService = CryptoJS.HmacSHA256(options.service, kRegion);
+	  var kKey = CryptoJS.HmacSHA256('aws4_request', kService);
+	  var signature = CryptoJS.HmacSHA256(stringToSign, kKey);
+	  gs.info('Signature: ' + signature, 'AWS Spoke');
+
+	  var authorization = algorithm + ' ';
+	  authorization += 'Credential=' + options.accessKeyId + '/' + amzDate + '/' + options.region + '/' + options.service + '/' + 'aws4_request, ';
+	  authorization += 'SignedHeaders=' + this.getSignedHeaders(options.headers) + ', ';
+	  authorization += 'Signature=' + signature;
+	  gs.info('Authorization: ' + authorization, 'AWS Spoke');
+
+	  options.headers['Authorization'] = authorization;
+
+	  if (options.securitytoken) {
+		  options.headers['X-Amz-Security-Token'] = options.securitytoken;
+	  }
+		
+	  return options.headers;
+	},
+
+	getAmzDateTime: function() {
+	  var date = new Date();
+	  var amzDateTime = date.toISOString().replace(/[:\-]|\.\d{3}/g, '');
+	  return amzDateTime;
+	},
+	
+	getCanonicalRequest: function(options) {
+	  var canonicalUri = options.path;
+	  
+	  var canonicalQuerystring = '';
+	  if (options.params) {
+		  canonicalQuerystring = this.getCanonicalQueryString(options.params);
+	  } 
+	  
+	  var canonicalHeaders = this.getCanonicalHeaders(options.headers);
+	  var signedHeaders = this.getSignedHeaders(options.headers);
+
+	  gs.info('Canonical URI: ' + canonicalUri, 'AWS Spoke');
+	  gs.info('Canonical Querystring: ' + canonicalQuerystring, 'AWS Spoke');
+	  gs.info('Canonical Headers: ' + canonicalHeaders, 'AWS Spoke');
+	  gs.info('Signed Headers: ' + signedHeaders, 'AWS Spoke');
+	  gs.info('Raw Body: ' + options.body, 'AWS Spoke');
+	  gs.info('Hashed Body: ' + options.hashedBody, 'AWS Spoke');
+
+	  var canonicalRequest = options.method + '\n';
+	  canonicalRequest += canonicalUri + '\n';
+	  canonicalRequest += canonicalQuerystring + '\n';
+	  canonicalRequest += canonicalHeaders + '\n';
+	  canonicalRequest += signedHeaders + '\n';
+		
+		if (options.unsignedPayload || options.method == 'GET') {
+			canonicalRequest += 'UNSIGNED-PAYLOAD';
+		} else {
+			canonicalRequest += options.hashedBody;
+		}
+	  
+	  return canonicalRequest;
+	},
+	
+	getCanonicalQueryString: function(params) {
+	  for (var i=0; i<params.length; i++) {
+		  if (params[i].substr(0,1) === '?')
+			params[i] = params[i].substr(1, params[i].length-1);
+		  params[i] = params[i].split('=').map(gs.urlDecode).map(this.uriEncodeSlash).join('=');
+	  }
+
+	  var sortedParams = params.sort();
+	  var canonicalQuerystring = sortedParams.join('&');
+	  return canonicalQuerystring;
+	},
+	
+	getCanonicalHeaders: function(headers) {
+	  var aggregatedHeaders = [];
+	  for (var h in headers) {
+		var name = h.toLowerCase();
+		gs.info('Looping input headers: ' + name,'AWS Spoke');
+		var headerfound = false;
+		for (var x=0; x<aggregatedHeaders.length; x++) {
+		  if (aggregatedHeaders[x].substr(0,name.length) === name) {
+			aggregatedHeaders[x] += headers[h].trim();
+			headerfound=true;
+			break;
+		  }
+		}
+
+		if (!headerfound)
+			gs.info('Adding Canonical Header: ' + name + ' value: ' + headers[h],'AWS Spoke');
+			aggregatedHeaders.push(name + ':' + headers[h]);
+	  }
+	  aggregatedHeaders.sort(function(a,b) { 
+			var name1 = a.substr(0,a.indexOf(':'));
+			var name2 = b.substr(0,b.indexOf(':'));
+			var order = (name1 < name2) ? -1 : (name1 > name2) ? 1 : 0;
+			return order;
+	  });
+	  var canonicalHeaders = aggregatedHeaders.join('\n');
+	  gs.info('Final Canonical Headers: ' + canonicalHeaders,'AWS Spoke');
+	  return canonicalHeaders + '\n';
+	},
+	
+	getSignedHeaders: function(headers) {
+	  var signedHeaders = [];
+	  for (var h in headers) {
+		var name = h.toLowerCase();
+		gs.info('Added Signed Header: ' + name, 'AWS Spoke');
+		signedHeaders.push(name);
+	  }
+	  var sortedHeaders = signedHeaders.sort();
+	  return sortedHeaders.join(';');
+	},
+	
+	getHashedPayload: function(body) {
+	  if (body && body.length > 0) {
+		return CryptoJS.SHA256(body).toString();
+	  }
+
+	  return CryptoJS.SHA256('');
+	},
+
+	uriEncodeSlash: function(input) {
+		var slash = true;
+		var ch;
+		var i;
+		var output = '';
+		for (i = 0; i < input.length; i++) {
+			ch = input[i];
+			if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9') || ch === '_' || ch === '-' || ch === '~' || ch === '.' || (!slash && ch === '/')) {
+				output += ch;
+			} else {
+				output += '%${ch.charCodeAt(0).toString(16).toUpperCase()}';
+			}
+		}
+		return output;
 	},
 	
 	type: 'AwsClient'
@@ -115,13 +291,13 @@ AwsClient.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 02:55:56</sys_created_on>
         <sys_id>620009d913dc370024b370a76144b0d3</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>163</sys_mod_count>
         <sys_name>AwsClient</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_script_include_620009d913dc370024b370a76144b0d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-25 18:26:14</sys_updated_on>
+        <sys_updated_on>2019-06-07 06:35:56</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -9,7 +9,7 @@
         <flow display_value="Test AWS S3 Actions">a61445e11398770024b370a76144b0ca</flow>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:56:14</sys_created_on>
         <sys_id>893585251398770024b370a76144b032</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_flow_logic_893585251398770024b370a76144b032</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 00:42:49</sys_updated_on>
+        <sys_updated_on>2019-06-06 20:23:01</sys_updated_on>
         <ui_id>5a662006-a088-4485-9b89-9d67b7aa78c0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

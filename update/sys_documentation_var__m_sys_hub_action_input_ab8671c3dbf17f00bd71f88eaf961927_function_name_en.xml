@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="function_name" label="Function Name" language="en" table="var__m_sys_hub_action_input_ab8671c3dbf17f00bd71f88eaf961927">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>function_name</element>
+            <help/>
+            <hint>The name of the Lambda function, version, or alias.</hint>
+            <label>Function Name</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ab8671c3dbf17f00bd71f88eaf961927</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-07 06:56:56</sys_created_on>
+            <sys_id>638671c3dbf17f00bd71f88eaf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Function Name</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ab8671c3dbf17f00bd71f88eaf961927_function_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-07 06:56:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

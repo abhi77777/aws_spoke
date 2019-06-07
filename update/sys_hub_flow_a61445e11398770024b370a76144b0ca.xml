@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>test_aws_s3_actions</internal_name>
-        <label_cache>[{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.output","label":"3➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"}]</label_cache>
+        <label_cache>[{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.status","label":"4➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.output","label":"4➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.scheduled_end_date_time","label":"3➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.total_duration","label":"3➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.status","label":"2➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzid2","label":"2➛xamzid2","reference_display":"xamzid2","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzrequestid","label":"2➛xamzrequestid","reference_display":"xamzrequestid","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzversionid","label":"2➛xamzversionid","reference_display":"xamzversionid","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.etag","label":"2➛etag","reference_display":"etag","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.responsebody","label":"2➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Test AWS S3 Actions</name>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:51:26</sys_created_on>
         <sys_id>a61445e11398770024b370a76144b0ca</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Test AWS S3 Actions</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_flow_a61445e11398770024b370a76144b0ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 00:42:48</sys_updated_on>
+        <sys_updated_on>2019-06-06 20:23:01</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a61445e11398770024b370a76144b0ca"/>

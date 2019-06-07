@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ed706b6edb713f00bd71f88eaf9619b0</id>
+        <name>Upload Incident Attachment  to AWS S3</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 01:22:41</sys_created_on>
+        <sys_id>a5706b6edb713f00bd71f88eaf9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upload Incident Attachment  to AWS S3</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_a5706b6edb713f00bd71f88eaf9619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 01:22:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="storage_class" table="var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STANDARD</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a81b159dbb93b00bd71f88eaf961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>STANDARD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>REDUCED_REDUNDANCY</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d281b159dbb93b00bd71f88eaf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>REDUCED_REDUNDANCY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GLACIER</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6281b159dbb93b00bd71f88eaf96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>GLACIER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STANDARD_IA</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2281b159dbb93b00bd71f88eaf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>STANDARD_IA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ONEZONE_IA</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a81b159dbb93b00bd71f88eaf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>ONEZONE_IA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INTELLIGENT_TIERING</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea81b159dbb93b00bd71f88eaf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>INTELLIGENT_TIERING</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>storage_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEEP_ARCHIVE</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2281b159dbb93b00bd71f88eaf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+            <value>DEEP_ARCHIVE</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>storage_class</element>
+            <name>var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-01 20:05:39</sys_created_on>
+            <sys_id>1a81b159dbb93b00bd71f88eaf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>storage_class</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_1a67954c13f9770024b370a76144b0c8_storage_class</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-01 20:05:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
