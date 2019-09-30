@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="DeleteBucket">b4cbf4ad1358770024b370a76144b0cc</action>
+        <action display_value="DeleteObject">b4cbf4ad1358770024b370a76144b0cc</action>
         <cid>0a331f82-c1fd-4b48-91bc-6d43831d1fd0</cid>
         <extended_inputs/>
         <extended_inputs/>

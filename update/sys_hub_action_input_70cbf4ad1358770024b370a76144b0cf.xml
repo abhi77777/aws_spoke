@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="DeleteBucket">b4cbf4ad1358770024b370a76144b0cc</model>
+        <model display_value="DeleteObject">b4cbf4ad1358770024b370a76144b0cc</model>
         <model_id>b4cbf4ad1358770024b370a76144b0cc</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_b4cbf4ad1358770024b370a76144b0cc</name>

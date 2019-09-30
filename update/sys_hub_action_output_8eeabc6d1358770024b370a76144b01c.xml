@@ -40,7 +40,7 @@
         <label>status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="DeleteBucket">c9ea7c6d1358770024b370a76144b051</model>
+        <model display_value="DeleteObject">c9ea7c6d1358770024b370a76144b051</model>
         <model_id>c9ea7c6d1358770024b370a76144b051</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c9ea7c6d1358770024b370a76144b051</name>

@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-30 18:06:41</sys_created_on>
         <sys_id>bfae10dcdb580810bd71f88eaf96195f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_flow_logic_bfae10dcdb580810bd71f88eaf96195f</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-09-30 21:04:51</sys_updated_on>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 23:52:03</sys_updated_on>
         <ui_id>ab3fedfd-08c7-4c28-b1d8-6e32c19d2a0a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

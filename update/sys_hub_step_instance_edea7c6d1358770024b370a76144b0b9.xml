@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="DeleteBucket">c9ea7c6d1358770024b370a76144b051</action>
+        <action display_value="DeleteObject">c9ea7c6d1358770024b370a76144b051</action>
         <cid>de60cf1f-ea0b-4728-b953-27c708d69fc6</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:11:13</sys_created_on>
         <sys_id>edea7c6d1358770024b370a76144b0b9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Build and Send Query</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_step_instance_edea7c6d1358770024b370a76144b0b9</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 18:24:05</sys_updated_on>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 23:50:05</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=edea7c6d1358770024b370a76144b0b9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,9 +33,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:11:14</sys_created_on>
         <sys_id>71ea7c6d1358770024b370a76144b0fb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 18:24:05</sys_updated_on>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 23:50:05</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var options = {};
   options.accessKey = inputs.accessKey;
@@ -44,9 +44,14 @@
   options.method = 'DELETE';
   options.service = 's3';
   options.region = 'us-east-1';
-
+  options.path = inputs.objectPath;
+  options.unsignedPayload = true;
+  
+  options.headers = {};
+  
   var awsClient = new AwsClient();
   var response = awsClient.executeAction(options);
+  outputs.response = response;
   outputs.responseBody = response.getBody(); 
   outputs.status = response.getStatusCode();
 })(inputs, outputs);</value>
@@ -138,6 +143,18 @@
         <sys_updated_on>2019-03-19 21:11:14</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_edea7c6d1358770024b370a76144b0b9</table>
         <value>{{action.method}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>objectPath</field>
+        <id>edea7c6d1358770024b370a76144b0b9</id>
+        <sys_created_by>timothy.elery@snc</sys_created_by>
+        <sys_created_on>2019-09-30 23:28:57</sys_created_on>
+        <sys_id>a8782d10db904810bd71f88eaf961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 23:28:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_edea7c6d1358770024b370a76144b0b9</table>
+        <value>{{action.object_path}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query</field>

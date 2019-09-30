@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Folder in Bucket">d556d0cfdbbd3f00bd71f88eaf96191b</action_type>
+        <action_type_parent/>
+        <comment>Create a new folder in the S3 bucket</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS S3 Actions">a61445e11398770024b370a76144b0ca</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>timothy.elery@snc</sys_created_by>
+        <sys_created_on>2019-09-30 22:43:50</sys_created_on>
+        <sys_id>ab1e19d4db504810bd71f88eaf961935</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ab1e19d4db504810bd71f88eaf961935</sys_update_name>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 23:52:02</sys_updated_on>
+        <ui_id>006bc09a-ddc0-4066-a600-3005782703af</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ab1e19d4db504810bd71f88eaf961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab1e19d4db504810bd71f88eaf961935</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>timothy.elery@snc</sys_created_by>
+        <sys_created_on>2019-09-30 22:43:50</sys_created_on>
+        <sys_id>ab1e19d4db504810bd71f88eaf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 22:43:50</sys_updated_on>
+        <value>snspoketest</value>
+        <variable display_value="">1d56d0cfdbbd3f00bd71f88eaf961930</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab1e19d4db504810bd71f88eaf961935</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>timothy.elery@snc</sys_created_by>
+        <sys_created_on>2019-09-30 22:43:50</sys_created_on>
+        <sys_id>e71e19d4db504810bd71f88eaf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>timothy.elery@snc</sys_updated_by>
+        <sys_updated_on>2019-09-30 22:43:50</sys_updated_on>
+        <value>814d5994db504810bd71f88eaf9619bc</value>
+        <variable display_value="">d956d0cfdbbd3f00bd71f88eaf96191e</variable>
+    </sys_variable_value>
+</record_update>
