@@ -14,7 +14,7 @@
         <master>true</master>
         <name>Test S3 Bucket Folder Create</name>
         <outputs/>
-        <parent_flow display_value="Test S3 Bucket Folder Create">17a89043dbfd3f00bd71f88eaf9619d8</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>

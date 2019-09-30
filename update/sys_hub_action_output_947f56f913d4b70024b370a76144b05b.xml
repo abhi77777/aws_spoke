@@ -40,7 +40,7 @@
         <label>requestId</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Subscribe">536f16f913d4b70024b370a76144b057</model>
+        <model display_value="">536f16f913d4b70024b370a76144b057</model>
         <model_id>536f16f913d4b70024b370a76144b057</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_536f16f913d4b70024b370a76144b057</name>

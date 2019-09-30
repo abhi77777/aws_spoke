@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_aws_s3_actions</internal_name>
+        <label_cache>[{"name":"c6403cf0-fd53-4975-8f94-ea00a83782dc.scheduled_end_date_time","label":"6➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"c6403cf0-fd53-4975-8f94-ea00a83782dc.total_duration","label":"6➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"40ef2b66-bb35-48ea-96aa-4e8235a3b7c2.responsebody","label":"5➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"40ef2b66-bb35-48ea-96aa-4e8235a3b7c2.status","label":"5➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"7bfcbc3e-63dc-4a4f-aec5-f8c9927be9ad.etag","label":"6➛etag","reference_display":"etag","type":"string","base_type":"string"},{"name":"7bfcbc3e-63dc-4a4f-aec5-f8c9927be9ad.xamzrequestid","label":"6➛xamzrequestid","reference_display":"xamzrequestid","type":"string","base_type":"string"},{"name":"7bfcbc3e-63dc-4a4f-aec5-f8c9927be9ad.xamzid2","label":"6➛xamzid2","reference_display":"xamzid2","type":"string","base_type":"string"},{"name":"7bfcbc3e-63dc-4a4f-aec5-f8c9927be9ad.status","label":"6➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"22299ec7-84bb-4fc4-8cca-cc2bf127b065.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"22299ec7-84bb-4fc4-8cca-cc2bf127b065.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"daf6bb68-bb42-451a-b6f8-e281e48b47e9.responsebody","label":"3➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"daf6bb68-bb42-451a-b6f8-e281e48b47e9.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"1155c89d-45bb-40a0-b215-50399dbd96b5.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"1155c89d-45bb-40a0-b215-50399dbd96b5.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.status","label":"8➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"18ca03dc-7cf5-4ae3-b998-fa57a4640725.output","label":"8➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.scheduled_end_date_time","label":"7➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"5a662006-a088-4485-9b89-9d67b7aa78c0.total_duration","label":"7➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"f14b78d2-ca5d-4ea8-8cbd-1b9029a8992d.output","label":"1➛output","reference_display":"output","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.status","label":"3➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzid2","label":"3➛xamzid2","reference_display":"xamzid2","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzrequestid","label":"3➛xamzrequestid","reference_display":"xamzrequestid","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.xamzversionid","label":"3➛xamzversionid","reference_display":"xamzversionid","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.etag","label":"3➛etag","reference_display":"etag","type":"string","base_type":"string"},{"name":"67255eba-5a7e-4f8e-9512-ff83dc5083e4.responsebody","label":"3➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Test AWS S3 Actions</name>
+        <outputs/>
+        <parent_flow display_value="Test AWS S3 Actions">a61445e11398770024b370a76144b0ca</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 23:02:42</sys_created_on>
+        <sys_id>26a5ce5fdb048410bd71f88eaf961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test AWS S3 Actions</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_26a5ce5fdb048410bd71f88eaf961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 23:02:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=26a5ce5fdb048410bd71f88eaf961902"/>
+    <sys_variable_value action="delete_multiple" query="document_key=26a5ce5fdb048410bd71f88eaf961902"/>
+</record_update>

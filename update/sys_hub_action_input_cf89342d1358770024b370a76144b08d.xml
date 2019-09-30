@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="DeleteStack">0789342d1358770024b370a76144b08b</model>
+        <model display_value="">0789342d1358770024b370a76144b08b</model>
         <model_id>0789342d1358770024b370a76144b08b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_0789342d1358770024b370a76144b08b</name>

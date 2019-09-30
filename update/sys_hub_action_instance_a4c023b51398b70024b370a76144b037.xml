@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Subscribe">229dda7913d4b70024b370a76144b0fe</action_type>
         <action_type_parent/>
         <comment/>
@@ -67,41 +66,4 @@
         <value>sns.us-west-1.amazonaws.com</value>
         <variable display_value="">3a9d1e7913d4b70024b370a76144b007</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a4c023b51398b70024b370a76144b037"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>aws_account</field>
-        <id>a4c023b51398b70024b370a76144b037</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 03:54:21</sys_created_on>
-        <sys_id>6cc023b51398b70024b370a76144b03c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-21 03:54:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_229dda7913d4b70024b370a76144b0fe</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>endpoint</field>
-        <id>a4c023b51398b70024b370a76144b037</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 18:35:21</sys_created_on>
-        <sys_id>616ae6ce1350f70024b370a76144b072</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-21 18:35:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_229dda7913d4b70024b370a76144b0fe</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query</field>
-        <id>a4c023b51398b70024b370a76144b037</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 03:54:21</sys_created_on>
-        <sys_id>20c023b51398b70024b370a76144b03d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 02:29:07</sys_updated_on>
-        <table>var__m_sys_hub_action_input_229dda7913d4b70024b370a76144b0fe</table>
-        <value>TopicArn={{7b8b51ca-e027-4694-bbfc-1831ec3b5510.topicarn}},Endpoint={{25e491aa-5914-4a9e-9e6a-b63837314e54.topicarn}},Protocol=sqs</value>
-    </sys_element_mapping>
 </record_update>

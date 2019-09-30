@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-29 00:34:28</sys_created_on>
         <sys_id>d1b8c24c137d770024b370a76144b06e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Build and Send Query</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_step_instance_d1b8c24c137d770024b370a76144b06e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-06 14:29:12</sys_updated_on>
+        <sys_updated_on>2019-09-30 17:55:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1b8c24c137d770024b370a76144b06e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,9 +33,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-29 00:34:29</sys_created_on>
         <sys_id>25b8c24c137d770024b370a76144b0ad</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-06 14:29:12</sys_updated_on>
+        <sys_updated_on>2019-09-30 17:55:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var options = {};
   options.service = 's3';
@@ -43,14 +43,13 @@
   options.method = 'PUT';
   options.accessKey = inputs.accessKey;
   options.secretKey = inputs.secretKey;
-  options.region = inputs.region;
+  options.region = 'us-east-1';
   options.unsignedPayload = inputs.unsignedPayload;
   options.attachmentSysId = inputs.attachmentSysId;
   
   options.headers = {
     'x-amz-acl': inputs.cannedAcl,
-    'x-amz-storage-class': inputs.storageClass,
-    'Content-Encoding': 'base64'
+    'x-amz-storage-class': inputs.storageClass
   };
 
   var awsClient = new AwsClient();

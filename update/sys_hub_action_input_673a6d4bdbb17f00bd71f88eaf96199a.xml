@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Invoke Lambda Function">2b3a6d4bdbb17f00bd71f88eaf961997</model>
+        <model display_value="">2b3a6d4bdbb17f00bd71f88eaf961997</model>
         <model_id>2b3a6d4bdbb17f00bd71f88eaf961997</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_2b3a6d4bdbb17f00bd71f88eaf961997</name>

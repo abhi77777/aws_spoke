@@ -40,7 +40,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="CreateBucket">5dcbc5691398770024b370a76144b007</model>
+        <model display_value="">5dcbc5691398770024b370a76144b007</model>
         <model_id>5dcbc5691398770024b370a76144b007</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_5dcbc5691398770024b370a76144b007</name>

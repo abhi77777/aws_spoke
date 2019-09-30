@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 20:50:36</sys_created_on>
         <sys_id>e326b8691358770024b370a76144b07c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Build and Send Query</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_step_instance_e326b8691358770024b370a76144b07c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 02:52:49</sys_updated_on>
+        <sys_updated_on>2019-09-27 18:20:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e326b8691358770024b370a76144b07c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -47,19 +47,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 20:50:38</sys_created_on>
         <sys_id>f326b8691358770024b370a76144b0b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-19 20:50:38</sys_updated_on>
+        <sys_updated_on>2019-09-27 18:20:13</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var options = {};
   options.accessKey = inputs.accessKey;
   options.secretKey = inputs.secretKey;
-  options.endpoint = inputs.endpoint;
+  options.host = inputs.endpoint;
   options.action = inputs.action;
   options.method = inputs.method;
   options.query = inputs.query;
   options.version = inputs.version;
   options.service = inputs.service;
+  options.region = inputs.region;
 
   var awsClient = new AwsClient();
   var response = awsClient.executeAction(options);
@@ -140,6 +141,18 @@
         <sys_updated_on>2019-03-19 20:50:38</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_e326b8691358770024b370a76144b07c</table>
         <value>{{action.query}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>region</field>
+        <id>e326b8691358770024b370a76144b07c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 15:56:11</sys_created_on>
+        <sys_id>7604285fdbcc4410bd71f88eaf9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 15:56:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e326b8691358770024b370a76144b07c</table>
+        <value>{{action.region}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>

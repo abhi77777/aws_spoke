@@ -40,7 +40,7 @@
         <label>queueUrl</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="GetQueueAttributes">fb11505adb143b00bd71f88eaf9619fe</model>
+        <model display_value="">fb11505adb143b00bd71f88eaf9619fe</model>
         <model_id>fb11505adb143b00bd71f88eaf9619fe</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb11505adb143b00bd71f88eaf9619fe</name>

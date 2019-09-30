@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CreateTopic">89ed7d751394b70024b370a76144b0cd</action>
+        <action display_value="">89ed7d751394b70024b370a76144b0cd</action>
         <cid>9b0434e6-e2cd-45c2-99f6-c504e8f5f70a</cid>
         <extended_inputs/>
         <extended_inputs/>

@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="CreateTopic">89ed7d751394b70024b370a76144b0cd</model>
+        <model display_value="">89ed7d751394b70024b370a76144b0cd</model>
         <model_id>89ed7d751394b70024b370a76144b0cd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_89ed7d751394b70024b370a76144b0cd</name>

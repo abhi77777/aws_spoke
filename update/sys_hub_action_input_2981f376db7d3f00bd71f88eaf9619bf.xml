@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Download Object As Attachment">e181f376db7d3f00bd71f88eaf9619b0</model>
+        <model display_value="">e181f376db7d3f00bd71f88eaf9619b0</model>
         <model_id>e181f376db7d3f00bd71f88eaf9619b0</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e181f376db7d3f00bd71f88eaf9619b0</name>

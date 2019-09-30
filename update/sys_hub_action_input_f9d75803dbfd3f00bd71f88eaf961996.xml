@@ -38,7 +38,7 @@
         <label>Aws Account</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Create Folder in Bucket">7dd75803dbfd3f00bd71f88eaf961993</model>
+        <model display_value="">7dd75803dbfd3f00bd71f88eaf961993</model>
         <model_id>7dd75803dbfd3f00bd71f88eaf961993</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_7dd75803dbfd3f00bd71f88eaf961993</name>

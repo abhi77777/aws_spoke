@@ -40,7 +40,7 @@
         <label>AttachmentBytes</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Prepare Attachment for Upload">129cba62db313f00bd71f88eaf9619e6</model>
+        <model display_value="">129cba62db313f00bd71f88eaf9619e6</model>
         <model_id>129cba62db313f00bd71f88eaf9619e6</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_129cba62db313f00bd71f88eaf9619e6</name>

@@ -2,18 +2,18 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Download Object As Attachment">f6c9ef3edb3d3f00bd71f88eaf961908</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e15f2bf2db7d3f00bd71f88eaf961900","name":"plan"}}</plan>
-        <snapshot>7143940fdbbd3f00bd71f88eaf96193f</snapshot>
+        <snapshot>7b516c50db980810bd71f88eaf961986</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-06 21:06:09</sys_created_on>
         <sys_id>e15f2bf2db7d3f00bd71f88eaf961900</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>f6c9ef3edb3d3f00bd71f88eaf961908</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_hub_action_plan_e15f2bf2db7d3f00bd71f88eaf961900</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-06 23:43:18</sys_updated_on>
+        <sys_updated_on>2019-09-30 18:18:30</sys_updated_on>
     </sys_hub_action_plan>
 </record_update>

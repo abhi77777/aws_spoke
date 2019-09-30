@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Download Object As Attachment">e643d40fdbbd3f00bd71f88eaf96192c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>e643d40fdbbd3f00bd71f88eaf96192c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test AWS S3 Actions">a61445e11398770024b370a76144b0ca</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:46:06</sys_created_on>
+        <sys_id>1b3c0c9cdb180810bd71f88eaf961979</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1b3c0c9cdb180810bd71f88eaf961979</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-30 21:04:52</sys_updated_on>
+        <ui_id>08283bee-7424-45ca-87f1-ebb8aa9aa3ea</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1b3c0c9cdb180810bd71f88eaf961979"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b3c0c9cdb180810bd71f88eaf961979</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:46:06</sys_created_on>
+        <sys_id>1f3c0c9cdb180810bd71f88eaf96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 16:46:06</sys_updated_on>
+        <value>sntimtest001</value>
+        <variable display_value="">0fc9ef3edb3d3f00bd71f88eaf961929</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b3c0c9cdb180810bd71f88eaf961979</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:46:33</sys_created_on>
+        <sys_id>315c8c9cdb180810bd71f88eaf96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 16:46:33</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">6643d40fdbbd3f00bd71f88eaf96192f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b3c0c9cdb180810bd71f88eaf961979</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:46:06</sys_created_on>
+        <sys_id>5b3c0c9cdb180810bd71f88eaf96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 16:46:06</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">7ac9ef3edb3d3f00bd71f88eaf96190b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b3c0c9cdb180810bd71f88eaf961979</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 18:11:38</sys_created_on>
+        <sys_id>dcdf9410db980810bd71f88eaf961979</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 18:19:58</sys_updated_on>
+        <value>aws-spoke-logo.svg</value>
+        <variable display_value="">b243d40fdbbd3f00bd71f88eaf96194b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b3c0c9cdb180810bd71f88eaf961979</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:46:33</sys_created_on>
+        <sys_id>f15c8c9cdb180810bd71f88eaf96193f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 18:04:06</sys_updated_on>
+        <value>snspoketest</value>
+        <variable display_value="">aa43d40fdbbd3f00bd71f88eaf961940</variable>
+    </sys_variable_value>
+</record_update>

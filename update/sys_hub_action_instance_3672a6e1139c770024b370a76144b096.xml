@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="RebootInstances">8c91a6a1139c770024b370a76144b05d</action_type>
         <action_type_parent/>
         <comment/>
@@ -53,29 +52,4 @@
         <value>8cc238651358770024b370a76144b0b8</value>
         <variable display_value="">8891a6a1139c770024b370a76144b060</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3672a6e1139c770024b370a76144b096"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>aws_account</field>
-        <id>3672a6e1139c770024b370a76144b096</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
-        <sys_id>3672a6e1139c770024b370a76144b0c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_8c91a6a1139c770024b370a76144b05d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query</field>
-        <id>3672a6e1139c770024b370a76144b096</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
-        <sys_id>f672a6e1139c770024b370a76144b0c1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 04:51:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_8c91a6a1139c770024b370a76144b05d</table>
-        <value>InstanceId.1={{174466eb-5a0e-481f-9e68-df3571f00b1b.instanceid}}</value>
-    </sys_element_mapping>
 </record_update>

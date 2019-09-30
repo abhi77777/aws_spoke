@@ -40,7 +40,7 @@
         <label>status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="SendMessage">5c5712b513d4b70024b370a76144b07a</model>
+        <model display_value="">5c5712b513d4b70024b370a76144b07a</model>
         <model_id>5c5712b513d4b70024b370a76144b07a</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_5c5712b513d4b70024b370a76144b07a</name>

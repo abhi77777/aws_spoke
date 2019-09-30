@@ -14,7 +14,7 @@
         <master>true</master>
         <name>Test S3 Object Download</name>
         <outputs/>
-        <parent_flow display_value="Test S3 Object Download">4f01fb36db7d3f00bd71f88eaf961965</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>

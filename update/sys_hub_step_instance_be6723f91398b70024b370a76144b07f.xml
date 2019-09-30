@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="DeleteQueue">da6723f91398b70024b370a76144b03a</action>
+        <action display_value="">da6723f91398b70024b370a76144b03a</action>
         <cid>9b0434e6-e2cd-45c2-99f6-c504e8f5f70a</cid>
         <extended_inputs/>
         <extended_inputs/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Subscribe">536f16f913d4b70024b370a76144b057</action>
+        <action display_value="">536f16f913d4b70024b370a76144b057</action>
         <cid>de60cf1f-ea0b-4728-b953-27c708d69fc6</cid>
         <extended_inputs/>
         <extended_inputs/>

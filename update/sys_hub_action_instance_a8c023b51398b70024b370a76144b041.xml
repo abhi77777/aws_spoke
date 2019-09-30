@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Publish">599fd6f913d4b70024b370a76144b045</action_type>
         <action_type_parent/>
         <comment/>
@@ -67,41 +66,4 @@
         <value>8cc238651358770024b370a76144b0b8</value>
         <variable display_value="">559fd6f913d4b70024b370a76144b048</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a8c023b51398b70024b370a76144b041"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>aws_account</field>
-        <id>a8c023b51398b70024b370a76144b041</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 03:54:22</sys_created_on>
-        <sys_id>60c023b51398b70024b370a76144b047</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-21 03:54:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_599fd6f913d4b70024b370a76144b045</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>endpoint</field>
-        <id>a8c023b51398b70024b370a76144b041</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 18:35:21</sys_created_on>
-        <sys_id>b16ae6ce1350f70024b370a76144b07b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-21 18:35:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_599fd6f913d4b70024b370a76144b045</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query</field>
-        <id>a8c023b51398b70024b370a76144b041</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-21 03:54:22</sys_created_on>
-        <sys_id>24c023b51398b70024b370a76144b047</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 03:33:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_599fd6f913d4b70024b370a76144b045</table>
-        <value>TopicArn={{7b8b51ca-e027-4694-bbfc-1831ec3b5510.topicarn}},Message=TestFromServiceNow</value>
-    </sys_element_mapping>
 </record_update>

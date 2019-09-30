@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CreateBucket">6fe385e11398770024b370a76144b091</action>
+        <action display_value="">6fe385e11398770024b370a76144b091</action>
         <cid>de60cf1f-ea0b-4728-b953-27c708d69fc6</cid>
         <extended_inputs/>
         <extended_inputs/>

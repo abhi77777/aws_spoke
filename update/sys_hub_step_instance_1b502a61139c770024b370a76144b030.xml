@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="DescribeInstances">5e50e661139c770024b370a76144b088</action>
+        <action display_value="">5e50e661139c770024b370a76144b088</action>
         <cid>dccb23b2-3efb-496d-9ade-5afd31801e25</cid>
         <extended_inputs/>
         <extended_inputs/>

@@ -40,7 +40,7 @@
         <label>instanceId</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RunInstances">cc9fda21139c770024b370a76144b06e</model>
+        <model display_value="">cc9fda21139c770024b370a76144b06e</model>
         <model_id>cc9fda21139c770024b370a76144b06e</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_cc9fda21139c770024b370a76144b06e</name>

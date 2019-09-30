@@ -40,7 +40,7 @@
         <label>status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RunInstances">f28d16ed135c770024b370a76144b069</model>
+        <model display_value="">f28d16ed135c770024b370a76144b069</model>
         <model_id>f28d16ed135c770024b370a76144b069</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_f28d16ed135c770024b370a76144b069</name>

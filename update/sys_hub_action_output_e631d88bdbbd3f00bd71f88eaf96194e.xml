@@ -40,7 +40,7 @@
         <label>status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Download Object As Attachment">a531988bdbbd3f00bd71f88eaf96197e</model>
+        <model display_value="">a531988bdbbd3f00bd71f88eaf96197e</model>
         <model_id>a531988bdbbd3f00bd71f88eaf96197e</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_a531988bdbbd3f00bd71f88eaf96197e</name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="GetQueueAttributes">6e60941adb143b00bd71f88eaf96197d</action>
+        <action display_value="">6e60941adb143b00bd71f88eaf96197d</action>
         <cid>dccb23b2-3efb-496d-9ade-5afd31801e25</cid>
         <extended_inputs/>
         <extended_inputs/>

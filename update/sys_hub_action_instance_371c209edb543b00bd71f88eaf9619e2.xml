@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="DeleteDBInstance">a0d8d7311398b70024b370a76144b0ee</action_type>
         <action_type_parent/>
         <comment/>
@@ -67,41 +66,4 @@
         <value>rds.us-west-1.amazonaws.com</value>
         <variable display_value="">e8d8d7311398b70024b370a76144b0f7</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=371c209edb543b00bd71f88eaf9619e2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>aws_account</field>
-        <id>371c209edb543b00bd71f88eaf9619e2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
-        <sys_id>b31c209edb543b00bd71f88eaf9619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a0d8d7311398b70024b370a76144b0ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>endpoint</field>
-        <id>371c209edb543b00bd71f88eaf9619e2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
-        <sys_id>ff1c209edb543b00bd71f88eaf9619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a0d8d7311398b70024b370a76144b0ee</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query</field>
-        <id>371c209edb543b00bd71f88eaf9619e2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
-        <sys_id>771c209edb543b00bd71f88eaf9619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a0d8d7311398b70024b370a76144b0ee</table>
-        <value>DBInstanceIdentifier={{43322323-3d09-49d3-860d-424c6ae36d76.topicarn}},SkipFinalSnapshot=true</value>
-    </sys_element_mapping>
 </record_update>

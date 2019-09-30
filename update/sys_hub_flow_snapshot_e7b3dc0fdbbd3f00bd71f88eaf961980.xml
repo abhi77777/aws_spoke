@@ -14,7 +14,7 @@
         <master>true</master>
         <name>Test S3 Object Upload</name>
         <outputs/>
-        <parent_flow display_value="Test S3 Object Upload">92b39c0fdbbd3f00bd71f88eaf9619a2</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>

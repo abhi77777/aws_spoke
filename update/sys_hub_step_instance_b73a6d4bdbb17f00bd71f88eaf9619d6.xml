@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Invoke Lambda Function">2b3a6d4bdbb17f00bd71f88eaf961997</action>
+        <action display_value="">2b3a6d4bdbb17f00bd71f88eaf961997</action>
         <cid>1f90b3c8-d945-4cb5-af64-99621cd132f5</cid>
         <extended_inputs/>
         <extended_inputs/>
