@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="aws_account_sysid" label="aws_account_sysid" language="en" table="var__m_sys_hub_step_ext_input_cb2d11b4dba08410bd71f88eaf961985">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>aws_account_sysid</element>
+            <help/>
+            <hint/>
+            <label>aws_account_sysid</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_input_cb2d11b4dba08410bd71f88eaf961985</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-14 22:12:22</sys_created_on>
+            <sys_id>4f2d11b4dba08410bd71f88eaf96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>aws_account_sysid</sys_name>
+            <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_input_cb2d11b4dba08410bd71f88eaf961985_aws_account_sysid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-14 22:12:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

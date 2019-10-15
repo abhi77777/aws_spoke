@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Centralized Connection and Credential" source="com.snc.core.automation.connection_credential">a75bca4645832300aadb28ef70de71d1</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-14 20:44:07</sys_created_on>
+        <sys_id>56f8c938db208410bd71f88eaf96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-14 20:44:07</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
