@@ -4,6 +4,7 @@
         <id>x_snc_aws.aws_spoke</id>
         <multiple_connections>true</multiple_connections>
         <name>aws_spoke</name>
+        <retry_policy/>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 20:55:47</sys_created_on>

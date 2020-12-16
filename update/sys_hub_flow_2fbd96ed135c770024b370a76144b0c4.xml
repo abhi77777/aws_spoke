@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -24,9 +24,11 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 04:23:05</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>2fbd96ed135c770024b370a76144b0c4</sys_id>
         <sys_mod_count>10</sys_mod_count>
         <sys_name>Test AWS EC2 Actions</sys_name>
+        <sys_overrides/>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
@@ -37,4 +39,757 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2fbd96ed135c770024b370a76144b0c4"/>
     <sys_variable_value action="delete_multiple" query="document_key=2fbd96ed135c770024b370a76144b0c4"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2fbd96ed135c770024b370a76144b0c4^sys_idNOT IN3672a6e1139c770024b370a76144b096,3e72a6e1139c770024b370a76144b0c5,6124ea25139c770024b370a76144b037,6d24ea25139c770024b370a76144b03f,b524ea25139c770024b370a76144b048,c61162a1139c770024b370a76144b054,cc546e25139c770024b370a76144b0b0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="RebootInstances">8c91a6a1139c770024b370a76144b05d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3672a6e1139c770024b370a76144b096</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3672a6e1139c770024b370a76144b096</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>4289544d-b793-4b2d-97ab-63c3d1d38b23</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3672a6e1139c770024b370a76144b096"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3672a6e1139c770024b370a76144b096</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3e72a6e1139c770024b370a76144b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value/>
+        <variable display_value="">5491a6a1139c770024b370a76144b0a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3672a6e1139c770024b370a76144b096</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>7a72a6e1139c770024b370a76144b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">8891a6a1139c770024b370a76144b060</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="TerminateInstances">7712eea1139c770024b370a76144b04e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3e72a6e1139c770024b370a76144b0c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3e72a6e1139c770024b370a76144b0c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>efaebe38-4aa2-4866-b249-980018c2dbc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e72a6e1139c770024b370a76144b0c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e72a6e1139c770024b370a76144b0c5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3a72a6e1139c770024b370a76144b0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">7312eea1139c770024b370a76144b051</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e72a6e1139c770024b370a76144b0c5</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>fa72a6e1139c770024b370a76144b0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value/>
+        <variable display_value="">8c22eea1139c770024b370a76144b07c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a924ea25139c770024b370a76144b035</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6124ea25139c770024b370a76144b037</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_6124ea25139c770024b370a76144b037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:46</sys_updated_on>
+        <ui_id>ba6e2437-5d2b-456c-8ff8-b3db0e2f95e9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6124ea25139c770024b370a76144b037"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6124ea25139c770024b370a76144b037</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>2124ea25139c770024b370a76144b03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:04</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6124ea25139c770024b370a76144b037</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6d24ea25139c770024b370a76144b03b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:04</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DescribeInstances">7aff5261139c770024b370a76144b0b1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>2.2</order>
+        <parent_ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6d24ea25139c770024b370a76144b03f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6d24ea25139c770024b370a76144b03f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>36b37a93-7208-4d37-9844-ddf40db823e1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d24ea25139c770024b370a76144b03f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6d24ea25139c770024b370a76144b03f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>e524ea25139c770024b370a76144b045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:05</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">7aff5261139c770024b370a76144b0b4</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e124ea25139c770024b370a76144b047</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>b524ea25139c770024b370a76144b048</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_b524ea25139c770024b370a76144b048</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b524ea25139c770024b370a76144b048"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b524ea25139c770024b370a76144b048</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>f524ea25139c770024b370a76144b058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:05</sys_updated_on>
+        <value>{{36b37a93-7208-4d37-9844-ddf40db823e1.instanceid}}=running</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="RunInstances">95abde6d135c770024b370a76144b023</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:37:44</sys_created_on>
+        <sys_id>c61162a1139c770024b370a76144b054</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c61162a1139c770024b370a76144b054</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:46</sys_updated_on>
+        <ui_id>174466eb-5a0e-481f-9e68-df3571f00b1b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c61162a1139c770024b370a76144b054"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c61162a1139c770024b370a76144b054</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:37:44</sys_created_on>
+        <sys_id>021162a1139c770024b370a76144b05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:37:44</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">91abde6d135c770024b370a76144b03f</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0c546e25139c770024b370a76144b0af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>cc546e25139c770024b370a76144b0b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_cc546e25139c770024b370a76144b0b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>1f648def-8591-4306-9eb7-abe9259fa402</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cc546e25139c770024b370a76144b0b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cc546e25139c770024b370a76144b0b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>4c546e25139c770024b370a76144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cc546e25139c770024b370a76144b0b0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>88546e25139c770024b370a76144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2fbd96ed135c770024b370a76144b0c4^sys_idNOT IN87dd1aed135c770024b370a76144b0b4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:23:35</sys_created_on>
+        <sys_id>87dd1aed135c770024b370a76144b0b4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>run_once</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_87dd1aed135c770024b370a76144b0b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:46</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87dd1aed135c770024b370a76144b0b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>87dd1aed135c770024b370a76144b0b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:23:35</sys_created_on>
+        <sys_id>47dd1aed135c770024b370a76144b0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:23:35</sys_updated_on>
+        <value>2019-03-20 13:50:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2fbd96ed135c770024b370a76144b0c4^sys_idNOT INe3bd96ed135c770024b370a76144b0c5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2fbd96ed135c770024b370a76144b0c4</id>
+        <name>Test Aws EC2 Actions</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:23:05</sys_created_on>
+        <sys_id>e3bd96ed135c770024b370a76144b0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Aws EC2 Actions</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_e3bd96ed135c770024b370a76144b0c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:23:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2fbd96ed135c770024b370a76144b0c4^sys_idNOT IN3672a6e1139c770024b370a76144b096,3e72a6e1139c770024b370a76144b0c5,6d24ea25139c770024b370a76144b03f,c61162a1139c770024b370a76144b054"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="RebootInstances">8c91a6a1139c770024b370a76144b05d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3672a6e1139c770024b370a76144b096</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3672a6e1139c770024b370a76144b096</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>4289544d-b793-4b2d-97ab-63c3d1d38b23</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3672a6e1139c770024b370a76144b096"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3672a6e1139c770024b370a76144b096</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3e72a6e1139c770024b370a76144b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value/>
+        <variable display_value="">5491a6a1139c770024b370a76144b0a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3672a6e1139c770024b370a76144b096</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>7a72a6e1139c770024b370a76144b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">8891a6a1139c770024b370a76144b060</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="TerminateInstances">7712eea1139c770024b370a76144b04e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3e72a6e1139c770024b370a76144b0c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3e72a6e1139c770024b370a76144b0c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>efaebe38-4aa2-4866-b249-980018c2dbc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e72a6e1139c770024b370a76144b0c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e72a6e1139c770024b370a76144b0c5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>3a72a6e1139c770024b370a76144b0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">7312eea1139c770024b370a76144b051</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e72a6e1139c770024b370a76144b0c5</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:43:47</sys_created_on>
+        <sys_id>fa72a6e1139c770024b370a76144b0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:43:47</sys_updated_on>
+        <value/>
+        <variable display_value="">8c22eea1139c770024b370a76144b07c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DescribeInstances">7aff5261139c770024b370a76144b0b1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>2.2</order>
+        <parent_ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6d24ea25139c770024b370a76144b03f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6d24ea25139c770024b370a76144b03f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>36b37a93-7208-4d37-9844-ddf40db823e1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d24ea25139c770024b370a76144b03f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6d24ea25139c770024b370a76144b03f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>e524ea25139c770024b370a76144b045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:05</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">7aff5261139c770024b370a76144b0b4</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="RunInstances">95abde6d135c770024b370a76144b023</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:37:44</sys_created_on>
+        <sys_id>c61162a1139c770024b370a76144b054</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c61162a1139c770024b370a76144b054</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:46</sys_updated_on>
+        <ui_id>174466eb-5a0e-481f-9e68-df3571f00b1b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c61162a1139c770024b370a76144b054"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c61162a1139c770024b370a76144b054</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:37:44</sys_created_on>
+        <sys_id>021162a1139c770024b370a76144b05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:37:44</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">91abde6d135c770024b370a76144b03f</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2fbd96ed135c770024b370a76144b0c4^sys_idNOT IN6124ea25139c770024b370a76144b037,b524ea25139c770024b370a76144b048,cc546e25139c770024b370a76144b0b0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a924ea25139c770024b370a76144b035</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6124ea25139c770024b370a76144b037</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_6124ea25139c770024b370a76144b037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:46</sys_updated_on>
+        <ui_id>ba6e2437-5d2b-456c-8ff8-b3db0e2f95e9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6124ea25139c770024b370a76144b037"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6124ea25139c770024b370a76144b037</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>2124ea25139c770024b370a76144b03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:04</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6124ea25139c770024b370a76144b037</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:04</sys_created_on>
+        <sys_id>6d24ea25139c770024b370a76144b03b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:04</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e124ea25139c770024b370a76144b047</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>b524ea25139c770024b370a76144b048</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_b524ea25139c770024b370a76144b048</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>c1e79181-d9a5-46a9-86ad-9320c5aca46a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b524ea25139c770024b370a76144b048"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b524ea25139c770024b370a76144b048</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:05</sys_created_on>
+        <sys_id>f524ea25139c770024b370a76144b058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:05</sys_updated_on>
+        <value>{{36b37a93-7208-4d37-9844-ddf40db823e1.instanceid}}=running</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0c546e25139c770024b370a76144b0af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS EC2 Actions">2fbd96ed135c770024b370a76144b0c4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>cc546e25139c770024b370a76144b0b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_cc546e25139c770024b370a76144b0b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <ui_id>1f648def-8591-4306-9eb7-abe9259fa402</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cc546e25139c770024b370a76144b0b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cc546e25139c770024b370a76144b0b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>4c546e25139c770024b370a76144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cc546e25139c770024b370a76144b0b0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 04:51:47</sys_created_on>
+        <sys_id>88546e25139c770024b370a76144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 04:51:47</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
 </record_update>

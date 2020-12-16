@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -24,9 +24,11 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-22 03:59:15</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>027b685edb543b00bd71f88eaf9619ff</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Test AWS RDS Actions</sys_name>
+        <sys_overrides/>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
@@ -37,4 +39,726 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=027b685edb543b00bd71f88eaf9619ff"/>
     <sys_variable_value action="delete_multiple" query="document_key=027b685edb543b00bd71f88eaf9619ff"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN263dac9edb543b00bd71f88eaf961953,2a3dac9edb543b00bd71f88eaf96194a,371c209edb543b00bd71f88eaf9619e2,623dac9edb543b00bd71f88eaf96195d,bf1c209edb543b00bd71f88eaf9619cb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DescribeDBInstances">dfead3b11398b70024b370a76144b058</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>2.2</order>
+        <parent_ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>263dac9edb543b00bd71f88eaf961953</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_263dac9edb543b00bd71f88eaf961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>52d63eb1-5dcd-4919-a34b-c55619f8e558</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=263dac9edb543b00bd71f88eaf961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>223dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">dfead3b11398b70024b370a76144b061</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>a63dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value/>
+        <variable display_value="">efead3b11398b70024b370a76144b093</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>e23dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">dbead3b11398b70024b370a76144b05b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ee3dac9edb543b00bd71f88eaf961948</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>2a3dac9edb543b00bd71f88eaf96194a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_2a3dac9edb543b00bd71f88eaf96194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>7a54a271-d7c4-4f03-9e08-478db7354552</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2a3dac9edb543b00bd71f88eaf96194a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2a3dac9edb543b00bd71f88eaf96194a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>223dac9edb543b00bd71f88eaf96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2a3dac9edb543b00bd71f88eaf96194a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>6e3dac9edb543b00bd71f88eaf96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DeleteDBInstance">a0d8d7311398b70024b370a76144b0ee</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>371c209edb543b00bd71f88eaf9619e2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_371c209edb543b00bd71f88eaf9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>39f143e9-cdfd-4cb9-851c-170512b9d5e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=371c209edb543b00bd71f88eaf9619e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>7f1c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value/>
+        <variable display_value="">7cd81b311398b70024b370a76144b029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>bb1c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">64d8d7311398b70024b370a76144b0f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>f71c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">e8d8d7311398b70024b370a76144b0f7</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2e3dac9edb543b00bd71f88eaf96195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>623dac9edb543b00bd71f88eaf96195d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_623dac9edb543b00bd71f88eaf96195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=623dac9edb543b00bd71f88eaf96195d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>623dac9edb543b00bd71f88eaf96195d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>ae3dac9edb543b00bd71f88eaf961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>{{52d63eb1-5dcd-4919-a34b-c55619f8e558.dbinstancestatus}}=available</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="CreateDBInstance">3a4d43f51358b70024b370a76144b0a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>bf1c209edb543b00bd71f88eaf9619cb</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bf1c209edb543b00bd71f88eaf9619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:55</sys_updated_on>
+        <ui_id>43322323-3d09-49d3-860d-424c6ae36d76</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf1c209edb543b00bd71f88eaf9619cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:19:22</sys_created_on>
+        <sys_id>38107c12db943b00bd71f88eaf9619ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:55</sys_updated_on>
+        <value>DBInstanceClass=db.m5.large,AllocatedStorage=15,DBInstanceIdentifier=sndemo-dbi01,Engine=mariadb,MasterUserPassword=Passw0rd,MasterUsername=myawsuser</value>
+        <variable display_value="">174d43f51358b70024b370a76144b0f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>3f1c209edb543b00bd71f88eaf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:06</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">4b4d43f51358b70024b370a76144b0b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>ff1c209edb543b00bd71f88eaf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:06</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">cb4d43f51358b70024b370a76144b0aa</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN3f1c209edb543b00bd71f88eaf9619b7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>3f1c209edb543b00bd71f88eaf9619b7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>run_once</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_3f1c209edb543b00bd71f88eaf9619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:55</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f1c209edb543b00bd71f88eaf9619b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3f1c209edb543b00bd71f88eaf9619b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>bb1c209edb543b00bd71f88eaf9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:06</sys_updated_on>
+        <value>2019-03-21 20:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN996c6c5edb543b00bd71f88eaf961911,ee7c249edb543b00bd71f88eaf9619ad"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <component_indexes>4</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <label>Teardown</label>
+        <order>0</order>
+        <stage_id>d03dfbd8-22bb-4f89-b207-12f823f02e04</stage_id>
+        <states>{"pending":"Pending - has not started","inprogress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:03:18</sys_created_on>
+        <sys_id>996c6c5edb543b00bd71f88eaf961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Teardown</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_stage_996c6c5edb543b00bd71f88eaf961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:57</sys_updated_on>
+        <type>standard</type>
+        <value>2</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <component_indexes>0</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <label>DB Creation</label>
+        <order>1</order>
+        <stage_id>2f3e4771-94aa-46db-8e94-5f04a4b8ee37</stage_id>
+        <states>{"pending":"Pending - has not started","inprogress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:03:39</sys_created_on>
+        <sys_id>ee7c249edb543b00bd71f88eaf9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DB Creation</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_stage_ee7c249edb543b00bd71f88eaf9619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:03:39</sys_updated_on>
+        <type>standard</type>
+        <value>1</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN4a7b685edb543b00bd71f88eaf9619ff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>027b685edb543b00bd71f88eaf9619ff</id>
+        <name>Test AWS RDS Actions</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 03:59:15</sys_created_on>
+        <sys_id>4a7b685edb543b00bd71f88eaf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test AWS RDS Actions</sys_name>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_4a7b685edb543b00bd71f88eaf9619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 03:59:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN263dac9edb543b00bd71f88eaf961953,371c209edb543b00bd71f88eaf9619e2,bf1c209edb543b00bd71f88eaf9619cb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DescribeDBInstances">dfead3b11398b70024b370a76144b058</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>2.2</order>
+        <parent_ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>263dac9edb543b00bd71f88eaf961953</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_263dac9edb543b00bd71f88eaf961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>52d63eb1-5dcd-4919-a34b-c55619f8e558</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=263dac9edb543b00bd71f88eaf961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>223dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">dfead3b11398b70024b370a76144b061</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>a63dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value/>
+        <variable display_value="">efead3b11398b70024b370a76144b093</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>263dac9edb543b00bd71f88eaf961953</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>e23dac9edb543b00bd71f88eaf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">dbead3b11398b70024b370a76144b05b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DeleteDBInstance">a0d8d7311398b70024b370a76144b0ee</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>371c209edb543b00bd71f88eaf9619e2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_371c209edb543b00bd71f88eaf9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>39f143e9-cdfd-4cb9-851c-170512b9d5e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=371c209edb543b00bd71f88eaf9619e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>7f1c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value/>
+        <variable display_value="">7cd81b311398b70024b370a76144b029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>bb1c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">64d8d7311398b70024b370a76144b0f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>371c209edb543b00bd71f88eaf9619e2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:07</sys_created_on>
+        <sys_id>f71c209edb543b00bd71f88eaf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:07</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">e8d8d7311398b70024b370a76144b0f7</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="CreateDBInstance">3a4d43f51358b70024b370a76144b0a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>bf1c209edb543b00bd71f88eaf9619cb</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bf1c209edb543b00bd71f88eaf9619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:55</sys_updated_on>
+        <ui_id>43322323-3d09-49d3-860d-424c6ae36d76</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf1c209edb543b00bd71f88eaf9619cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:19:22</sys_created_on>
+        <sys_id>38107c12db943b00bd71f88eaf9619ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:55</sys_updated_on>
+        <value>DBInstanceClass=db.m5.large,AllocatedStorage=15,DBInstanceIdentifier=sndemo-dbi01,Engine=mariadb,MasterUserPassword=Passw0rd,MasterUsername=myawsuser</value>
+        <variable display_value="">174d43f51358b70024b370a76144b0f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>3f1c209edb543b00bd71f88eaf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:06</sys_updated_on>
+        <value>rds.us-west-1.amazonaws.com</value>
+        <variable display_value="">4b4d43f51358b70024b370a76144b0b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf1c209edb543b00bd71f88eaf9619cb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:02:06</sys_created_on>
+        <sys_id>ff1c209edb543b00bd71f88eaf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:02:06</sys_updated_on>
+        <value>8cc238651358770024b370a76144b0b8</value>
+        <variable display_value="">cb4d43f51358b70024b370a76144b0aa</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=027b685edb543b00bd71f88eaf9619ff^sys_idNOT IN2a3dac9edb543b00bd71f88eaf96194a,623dac9edb543b00bd71f88eaf96195d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ee3dac9edb543b00bd71f88eaf961948</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>2a3dac9edb543b00bd71f88eaf96194a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_2a3dac9edb543b00bd71f88eaf96194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>7a54a271-d7c4-4f03-9e08-478db7354552</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2a3dac9edb543b00bd71f88eaf96194a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2a3dac9edb543b00bd71f88eaf96194a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>223dac9edb543b00bd71f88eaf96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2a3dac9edb543b00bd71f88eaf96194a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>6e3dac9edb543b00bd71f88eaf96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2e3dac9edb543b00bd71f88eaf96195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Test AWS RDS Actions">027b685edb543b00bd71f88eaf9619ff</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>623dac9edb543b00bd71f88eaf96195d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_623dac9edb543b00bd71f88eaf96195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:30:56</sys_updated_on>
+        <ui_id>3731b1d3-90dc-4b9b-892c-3c7b637fd7d6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=623dac9edb543b00bd71f88eaf96195d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>623dac9edb543b00bd71f88eaf96195d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 04:06:56</sys_created_on>
+        <sys_id>ae3dac9edb543b00bd71f88eaf961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 04:06:56</sys_updated_on>
+        <value>{{52d63eb1-5dcd-4919-a34b-c55619f8e558.dbinstancestatus}}=available</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
 </record_update>

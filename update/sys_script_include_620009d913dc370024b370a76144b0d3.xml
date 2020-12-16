@@ -3,6 +3,7 @@
         <access>public</access>
         <active>true</active>
         <api_name>x_snc_aws.AwsClient</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <name>AwsClient</name>
@@ -46,13 +47,13 @@ AwsClient.prototype = {
 		};
 		
 		var rm = this.prepareRestMessage(reqOpts);
-		rm.setLogLevel('all');
 		var response = rm.execute();
 		return response;
 	},
 	
 	prepareRestMessage: function(options) {
-		var rm = new sn_ws.RESTMessageV2(); 
+		var rm = new sn_ws.RESTMessageV2();
+		rm.setLogLevel('all');
 		rm.setHttpMethod(options.method || 'GET');
 		
 		var params = [];
@@ -64,14 +65,15 @@ AwsClient.prototype = {
 		}
 		
 		if (!gs.nil(params) && params.length > 0) {
-			options.path = '?' + params.join('&');
+			//options.path = '?' + params.join('&');
 			options.params = params;
 		}
 		
 		if (!gs.nil(options.body)) {
-            options.hashedBody = CryptoJS.SHA256(options.body).toString();
             rm.setRequestBody(options.body);
 		}
+		
+		options.hashedBody = CryptoJS.SHA256(options.body || '').toString();
 		
 		if (!gs.nil(options.attachmentSysId)) {
 			var attachRec = new GlideRecord('sys_attachment');
@@ -84,7 +86,7 @@ AwsClient.prototype = {
 			  options.path = '/' + attachRec.file_name.split(' ').join('_');
 			}
 			
-            options.hashedBody = CryptoJS.SHA256(options.body).toString();
+            options.hashedBody = CryptoJS.SHA256(options.body || '').toString();
 		}
 		
 		rm.setEndpoint('https://' + options.host + options.path);
@@ -199,8 +201,8 @@ AwsClient.prototype = {
 	  canonicalRequest += canonicalQuerystring + '\n';
 	  canonicalRequest += canonicalHeaders + '\n';
 	  canonicalRequest += signedHeaders + '\n';
-		
-		if (options.unsignedPayload || options.method == 'GET') {
+	
+		if (options.unsignedPayload || options.method == 'GET' && options.service == 's3') {
 			canonicalRequest += 'UNSIGNED-PAYLOAD';
 		} else {
 			canonicalRequest += options.hashedBody;
@@ -214,6 +216,7 @@ AwsClient.prototype = {
 		  if (params[i].substr(0,1) === '?')
 			params[i] = params[i].substr(1, params[i].length-1);
 		  params[i] = params[i].split('=').map(gs.urlDecode).map(this.uriEncodeSlash).join('=');
+		  //params[i] = params[i].split('=').map(gs.urlDecode).join('=');
 	  }
 
 	  var sortedParams = params.sort();
@@ -279,7 +282,7 @@ AwsClient.prototype = {
 			if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9') || ch === '_' || ch === '-' || ch === '~' || ch === '.' || (!slash && ch === '/')) {
 				output += ch;
 			} else {
-				output += '%${ch.charCodeAt(0).toString(16).toUpperCase()}';
+				output += '%' + ch.charCodeAt(0).toString(16).toUpperCase();
 			}
 		}
 		return output;
@@ -291,13 +294,13 @@ AwsClient.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 02:55:56</sys_created_on>
         <sys_id>620009d913dc370024b370a76144b0d3</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>178</sys_mod_count>
         <sys_name>AwsClient</sys_name>
         <sys_package display_value="AWS" source="x_snc_aws">46bdb85913dc370024b370a76144b043</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWS">46bdb85913dc370024b370a76144b043</sys_scope>
         <sys_update_name>sys_script_include_620009d913dc370024b370a76144b0d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-07 06:35:56</sys_updated_on>
+        <sys_updated_on>2019-10-15 03:29:27</sys_updated_on>
     </sys_script_include>
 </record_update>
